@@ -1,0 +1,19 @@
+version_code: 1
+version_name: 0.0.1
+build_date: '2022-10-25'
+build_number: 1
+
+debug:
+  logging:
+    console:
+      from_level: 1
+      print_big_model: true
+    storage:
+      from_level: 1
+
+
+service_configuration:
+  DocumentStorageServiceMongo:
+    connection_string: minkey@MongoCloud
+  MinKey:
+    endpoint: http://192.168.1.4:24500

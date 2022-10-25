@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+redis
+pymongo[srv]
+requests
+munch
+colorama
+python-dateutil
+PyYAML
